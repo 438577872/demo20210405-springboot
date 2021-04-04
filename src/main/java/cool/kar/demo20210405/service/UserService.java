@@ -15,6 +15,7 @@ public class UserService {
 
     public List<User> findAll() {
 //        mapper里面的selectList里面传入一个条件对象,如果是无条件则传入null即可
+//
         return userMapper.selectList(null);
     }
 
