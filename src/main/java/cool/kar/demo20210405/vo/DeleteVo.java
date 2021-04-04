@@ -4,5 +4,6 @@ import lombok.Data;
 
 @Data
 public class DeleteVo {
+
     boolean status;
 }

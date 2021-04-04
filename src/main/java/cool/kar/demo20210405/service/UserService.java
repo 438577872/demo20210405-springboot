@@ -34,6 +34,8 @@ public class UserService {
         queryWrapper.eq("age", age);
         return userMapper.selectList(queryWrapper);
     }
+
+
     public List<User> findByAgeOlder(int age) {
         QueryWrapper<User> queryWrapper = new QueryWrapper<>();
 //       gt表示构建一个大于条件. 相当于select * from user where age > #{age};
