@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://192.168.1.100/demo1
+server:
+  port: 8888
